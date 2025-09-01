@@ -2,9 +2,9 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# Simulação de um banco de dados ou lista de respostas
+# Simulação de um banco de dados ou lista de respostas     ---- EDITAR INFORMAÇÕES ----
 farmacia_info = {
-    "horario": "Nosso horário de funcionamento é de segunda a sábado, das 8h às 20h.",
+    "horario": "Nosso horário de funcionamento é de segunda a sábado, das 8h às 18h.",
     "entrega": "Fazemos entregas em toda a cidade. A taxa varia conforme a sua localização.",
     "produtos": "Temos uma grande variedade de produtos, de medicamentos a produtos de higiene pessoal. Qual produto você procura?"
 }
