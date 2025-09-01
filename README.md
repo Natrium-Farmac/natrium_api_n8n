@@ -22,3 +22,7 @@ Se nenhuma palavra-chave é encontrada, a API retorna a instrução "action": "p
 If a keyword is found, the API returns a pharmacy-specific response along with the "action" instruction: "respond_directly."
 
 If no keyword is found, the API returns the "action" instruction: "pass_to_ai."
+
+
+Start Command for Render:
+gunicorn --bind 0.0.0.0:8000 app:app
